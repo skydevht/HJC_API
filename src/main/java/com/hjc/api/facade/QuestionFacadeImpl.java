@@ -1,15 +1,14 @@
-package maFirstSrpringApp.com.apptryAgain.facade;
+package com.hjc.api.facade;
 
 import java.util.List;
-import java.util.Optional;
 
+import com.hjc.api.entity.QuestionEntity;
+import com.hjc.api.model.Question;
+import com.hjc.api.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import maFirstSrpringApp.com.apptryAgain.entity.QuestionEntity;
-import maFirstSrpringApp.com.apptryAgain.mapper.QuestionMapper;
-import maFirstSrpringApp.com.apptryAgain.model.Question;
-import maFirstSrpringApp.com.apptryAgain.service.QuestionService;
+import com.hjc.api.mapper.QuestionMapper;
 
 @Service
 public class QuestionFacadeImpl implements QuestionFacade{

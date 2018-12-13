@@ -1,4 +1,4 @@
-package maFirstSrpringApp.com.apptryAgain.model;
+package com.hjc.api.model;
 
 
 public class Question {

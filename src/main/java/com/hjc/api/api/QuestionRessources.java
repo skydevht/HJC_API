@@ -1,6 +1,8 @@
-package maFirstSrpringApp.com.apptryAgain.api;
+package com.hjc.api.api;
 
 import java.util.List;
+
+import com.hjc.api.model.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,8 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import maFirstSrpringApp.com.apptryAgain.facade.QuestionFacade;
-import maFirstSrpringApp.com.apptryAgain.model.Question;
+import com.hjc.api.facade.QuestionFacade;
 
 import javax.validation.Valid;
 

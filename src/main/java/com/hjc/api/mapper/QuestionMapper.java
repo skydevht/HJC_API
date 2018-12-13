@@ -1,10 +1,9 @@
-package maFirstSrpringApp.com.apptryAgain.mapper;
+package com.hjc.api.mapper;
 
 
+import com.hjc.api.entity.QuestionEntity;
+import com.hjc.api.model.Question;
 import org.mapstruct.Mapper;
-
-import maFirstSrpringApp.com.apptryAgain.entity.QuestionEntity;
-import maFirstSrpringApp.com.apptryAgain.model.Question;
 
 import java.util.Collection;
 import java.util.List;

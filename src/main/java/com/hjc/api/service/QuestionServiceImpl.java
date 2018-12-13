@@ -1,18 +1,16 @@
-package maFirstSrpringApp.com.apptryAgain.service;
+package com.hjc.api.service;
 
 import java.util.*;
 
-import maFirstSrpringApp.com.apptryAgain.exception.QuestionNotFoundException;
-import maFirstSrpringApp.com.apptryAgain.model.Question;
+import com.hjc.api.entity.QuestionEntity;
+import com.hjc.api.exception.QuestionNotFoundException;
+import com.hjc.api.repository.QuestionRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.google.common.collect.ImmutableList;
-
-import maFirstSrpringApp.com.apptryAgain.entity.QuestionEntity;
-import maFirstSrpringApp.com.apptryAgain.repository.QuestionRepository;
 
 
 @Service

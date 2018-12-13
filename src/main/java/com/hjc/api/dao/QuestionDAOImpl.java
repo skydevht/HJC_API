@@ -1,8 +1,8 @@
-package maFirstSrpringApp.com.apptryAgain.dao;
+package com.hjc.api.dao;
 
 import java.util.List;
 
-import maFirstSrpringApp.com.apptryAgain.entity.QuestionEntity;
+import com.hjc.api.entity.QuestionEntity;
 
 public class QuestionDAOImpl implements QuestionDAO {
 
